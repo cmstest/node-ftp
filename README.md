@@ -116,8 +116,6 @@ Methods
 
     * keepalive - _integer_ - How often (in milliseconds) to send a 'dummy' (NOOP) command to keep the connection alive. **Default:** 10000
 
-    * pret - _boolean_ - Does this server support PRET (DrFTPd) and should it be used. **Default:** false
-
 * **end**() - _(void)_ - Closes the connection to the server after any/all enqueued commands have been executed.
 
 * **destroy**() - _(void)_ - Closes the connection to the server immediately.
